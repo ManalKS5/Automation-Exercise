@@ -7,6 +7,7 @@ public class HomePage {
 
     WebDriver driver;
 
+    // Locators
     By signupLoginButton = By.xpath("//a[contains(text(),'Signup / Login')]");
     By contactUsButton = By.xpath("//*[contains(text(),' Contact us')]");
     By productsButton = By.xpath("//*[contains(text(),' Products')]");
@@ -31,6 +32,7 @@ public class HomePage {
         driver.findElement(contactUsButton).click();
     }
 
+    // Click Products Button
     public void clickProductsButton() {
         driver.findElement(productsButton).click();
     }

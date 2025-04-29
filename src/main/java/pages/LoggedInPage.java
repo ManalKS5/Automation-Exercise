@@ -32,6 +32,7 @@ public class LoggedInPage {
         return driver.findElement(accountDeletedMessage).isDisplayed();
     }
 
+    // Click 'Continue' button
     public void clickContinue() {
         driver.findElement(continueButtonAfterDeletion).click();
     }
