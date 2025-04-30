@@ -4,6 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class AccountInformationPage {
 
     WebDriver driver;
@@ -54,7 +57,9 @@ public class AccountInformationPage {
         }
         driver.findElement(passwordInput).sendKeys(password);
         new Select(driver.findElement(daysDropdown)).selectByValue(day);
-        new Select(driver.findElement(monthsDropdown)).selectByValue(month);
+        //new Select(driver.findElement(monthsDropdown)).selectByValue(month);
+        Select monthDropdown = new Select(driver.findElement(monthsDropdown));
+        monthDropdown.selectByValue(convertMonthToNumber(month));
         new Select(driver.findElement(yearsDropdown)).selectByValue(year);
     }
 
@@ -87,5 +92,24 @@ public class AccountInformationPage {
     public void clickCreateAccount() {
         driver.findElement(createAccountButton).click();
     }
+
+    // Map the month name to its order
+    public static String convertMonthToNumber(String monthName) {
+        Map<String, String> months = new HashMap<>();
+        months.put("January", "1");
+        months.put("February", "2");
+        months.put("March", "3");
+        months.put("April", "4");
+        months.put("May", "5");
+        months.put("June", "6");
+        months.put("July", "7");
+        months.put("August", "8");
+        months.put("September", "9");
+        months.put("October", "10");
+        months.put("November", "11");
+        months.put("December", "12");
+        return months.getOrDefault(monthName.trim(), "1"); // default = January
+    }
+
 
 }
