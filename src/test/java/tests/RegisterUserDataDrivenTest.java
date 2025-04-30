@@ -1,7 +1,9 @@
 package tests;
 
 import base.BaseTest;
+import io.qameta.allure.Allure;
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 import pages.*;
 import utils.ExcelReader;
@@ -13,7 +15,6 @@ public class RegisterUserDataDrivenTest extends BaseTest {
                                       String BirthDay, String BirthMonth, String BirthYear, String FirstName,
                                       String LastName, String Company, String Address1, String Address2,
                                       String Country, String State, String City, String	Zipcode, String MobileNumber){
-        ExcelReader reader = new ExcelReader();
         HomePage homePage = new HomePage(driver);
         SignupLoginPage signupLoginPage = new SignupLoginPage(driver);
         AccountInformationPage accountInfoPage = new AccountInformationPage(driver);
@@ -30,6 +31,11 @@ public class RegisterUserDataDrivenTest extends BaseTest {
         signupLoginPage.enterNameAndEmail(Name, Email);
         //  Click 'Signup' button
         signupLoginPage.clickSignupButton();
+        // Assert error message
+        if (signupLoginPage.isEmailAlreadyRegistered()) {
+            Allure.step("Email already exists, skipping this registration.");
+            throw new SkipException("Email already registered: " + Email);
+        }
         // Verify that 'ENTER ACCOUNT INFORMATION' is visible
         Assert.assertTrue(accountInfoPage.isEnterAccountInfoVisible(), "Account Info section not visible");
         // Fill details: Title, Name, Email, Password, Date of birth

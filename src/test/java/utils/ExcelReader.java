@@ -15,6 +15,7 @@ public class ExcelReader {
     FileInputStream fis;
     String[][] data;
 
+    // Read Data from the Excel sheet
     @DataProvider(name = "RegistrationData")
     public String[][] readData() {
         try {

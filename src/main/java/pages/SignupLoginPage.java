@@ -12,6 +12,7 @@ public class SignupLoginPage  {
     By nameInput = By.xpath("//*[@name='name']");
     By emailInput = By.xpath("//input[@data-qa='signup-email']");
     By signupButton = By.xpath("//button[contains(text(),'Signup')]");
+    By errorMessage = By.xpath("//*[text()= 'Email Address already exist!']");
 
     // Constructor
     public SignupLoginPage(WebDriver driver) {
@@ -33,4 +34,10 @@ public class SignupLoginPage  {
     public void clickSignupButton() {
         driver.findElement(signupButton).click();
     }
+
+    // Check if the Email is already registered
+    public boolean isEmailAlreadyRegistered() {
+        return driver.findElements(errorMessage).size() > 0;
+    }
+
 }

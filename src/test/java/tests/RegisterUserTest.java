@@ -1,7 +1,9 @@
 package tests;
 
 import base.BaseTest;
+import io.qameta.allure.Allure;
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 import pages.*;
 
@@ -24,9 +26,14 @@ public class RegisterUserTest extends BaseTest {
         // Verify 'New User Signup!' is visible
         Assert.assertTrue(signupLoginPage.isNewUserSignupVisible(), "Signup section not visible");
         // Enter name and email address
-        signupLoginPage.enterNameAndEmail("Manal", "manalTest@example.com");
+        signupLoginPage.enterNameAndEmail("Manal", "ManalExample123@gmail.com");
         //  Click 'Signup' button
         signupLoginPage.clickSignupButton();
+        // Assert error message
+        if (signupLoginPage.isEmailAlreadyRegistered()) {
+            Allure.step("Email already exists, skipping this registration.");
+            throw new SkipException("Email already registered: ");
+        }
         // Verify that 'ENTER ACCOUNT INFORMATION' is visible
         Assert.assertTrue(accountInfoPage.isEnterAccountInfoVisible(), "Account Info section not visible");
         // Fill details: Title, Name, Email, Password, Date of birth
