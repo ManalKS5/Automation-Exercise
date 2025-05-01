@@ -1,6 +1,8 @@
 package tests;
 
 import base.BaseTest;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.ContactUsPage;
@@ -8,30 +10,57 @@ import pages.HomePage;
 
 public class ContactUsFormTest extends BaseTest {
 
+    private static final Logger logger = LogManager.getLogger(ContactUsFormTest.class);
+
     @Test(priority = 2)
     public void contactUsFormSubmission() throws InterruptedException {
+
+        logger.info("Starting Contact Us form submission test");
 
         HomePage homePage = new HomePage(driver);
         ContactUsPage contactUsPage = new ContactUsPage(driver);
 
-        // Verify that home page is visible successfully
-        Assert.assertTrue(homePage.isHomePageVisible(), "Home page is not visible");
-        // Click on 'Contact Us' button
-        homePage.clickContactUsButton();
-        // Verify 'GET IN TOUCH' is visible
-        Assert.assertTrue(contactUsPage.isGetInTouchVisible(), "Get in Touch section not visible");
-        // Enter name, email, subject and message
-        contactUsPage.fillContactForm("Manal", "manal@example.com", "Test Subject", "This is a test message for the test case number six.");
-        // Upload file
-        contactUsPage.uploadFile(System.getProperty("user.dir") + "/src/test/resources/testFile.txt");
-        // Click 'Submit' button
-        contactUsPage.clickSubmit();
-        // Click OK button
-        driver.switchTo().alert().accept();
-        // Verify success message 'Success! Your details have been submitted successfully.' is visible
-        Assert.assertTrue(contactUsPage.isSuccessMessageVisible(), "Success message not visible");
-        // Click 'Home' button and verify that landed to home page successfully
-        contactUsPage.clickHomeButton();
-        Assert.assertTrue(homePage.isHomePageVisible(), "Did not return to Home page successfully");
+        try {
+            logger.info("Verifying home page is visible");
+            Assert.assertTrue(homePage.isHomePageVisible(), "Home page is not visible");
+
+            logger.info("Navigating to Contact Us page");
+            homePage.clickContactUsButton();
+
+            logger.info("Checking if 'GET IN TOUCH' is visible");
+            Assert.assertTrue(contactUsPage.isGetInTouchVisible(), "'Get in Touch' section not visible");
+
+            logger.info("Filling contact form");
+            contactUsPage.fillContactForm(
+                    "Manal",
+                    "manal@example.com",
+                    "Test Subject",
+                    "This is a test message for the test case number six."
+            );
+
+            logger.info("Uploading file");
+            contactUsPage.uploadFile(System.getProperty("user.dir") + "/src/test/resources/testFile.txt");
+
+            logger.info("Submitting form");
+            contactUsPage.clickSubmit();
+
+            logger.info("Accepting alert");
+            driver.switchTo().alert().accept();
+
+            logger.info("Verifying success message");
+            Assert.assertTrue(contactUsPage.isSuccessMessageVisible(), "Success message not visible");
+
+            logger.info("Returning to Home page");
+            contactUsPage.clickHomeButton();
+            Assert.assertTrue(homePage.isHomePageVisible(), "Did not return to Home page successfully");
+
+            logger.info("Contact Us test completed successfully");
+
+        } catch (AssertionError ae) {
+            logger.error("Assertion failed: {}", ae.getMessage(), ae);
+            throw ae;
+        } catch (Exception e) {
+            logger.error("Unexpected error during Contact Us test: {}", e.getMessage(), e);
+        }
     }
 }

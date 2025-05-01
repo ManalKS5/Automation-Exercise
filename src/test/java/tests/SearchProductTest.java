@@ -5,27 +5,48 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.ProductsPage;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class SearchProductTest extends BaseTest {
 
+    private static final Logger logger = LogManager.getLogger(SearchProductTest.class);
+
     @Test(priority = 3)
-    public void searchProductSuccessfully() {
+    public void searchProduct() {
+
+        logger.info("Starting 'searchProduct' test");
 
         HomePage homePage = new HomePage(driver);
         ProductsPage productsPage = new ProductsPage(driver);
 
-        // Verify that home page is visible successfully
-        Assert.assertTrue(homePage.isHomePageVisible(), "Home page is not visible");
-        // Click on 'Products' button
-        homePage.clickProductsButton();
-        // Verify user is navigated to ALL PRODUCTS page successfully
-        Assert.assertTrue(productsPage.isAllProductsVisible(), "All Products page is not visible");
-        // Enter product name in search input and click search button
-        productsPage.searchProduct("dress");
-        // Verify 'SEARCHED PRODUCTS' is visible
-        Assert.assertTrue(productsPage.SearchedProductsVisible(), "Searched Products section not visible");
-        // Verify all the products related to search are visible
-        Assert.assertTrue(productsPage.SearchedProductsDisplayed(), "No searched products are displayed");
+        try {
+            logger.info("Verifying that home page is visible");
+            Assert.assertTrue(homePage.isHomePageVisible(), "Home page is not visible");
+
+            logger.info("Clicking on 'Products' button");
+            homePage.clickProductsButton();
+
+            logger.info("Verifying that user is navigated to ALL PRODUCTS page");
+            Assert.assertTrue(productsPage.isAllProductsVisible(), "All Products page is not visible");
+
+            String searchKeyword = "dress";
+            logger.info("Searching for product with keyword: {}", searchKeyword);
+            productsPage.searchProduct(searchKeyword);
+
+            logger.info("Verifying that 'SEARCHED PRODUCTS' section is visible");
+            Assert.assertTrue(productsPage.SearchedProductsVisible(), "'Searched Products' section not visible");
+
+            logger.info("Verifying that searched products are displayed");
+            Assert.assertTrue(productsPage.SearchedProductsDisplayed(), "No searched products are displayed");
+
+            logger.info("'searchProductSuccessfully' test passed");
+
+        } catch (AssertionError ae) {
+            logger.error("Assertion failed: {}", ae.getMessage(), ae);
+            throw ae; // Re-throw to ensure the test fails visibly
+        } catch (Exception e) {
+            logger.error("Unexpected error occurred: {}", e.getMessage(), e);
+        }
     }
 }
-
