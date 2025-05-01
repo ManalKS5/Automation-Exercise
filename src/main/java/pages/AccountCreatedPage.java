@@ -24,4 +24,6 @@ public class AccountCreatedPage {
     public void clickContinue() {
         driver.findElement(continueButton).click();
     }
+
+    // comment for testing purposes
 }
