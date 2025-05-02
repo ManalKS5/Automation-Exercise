@@ -31,11 +31,19 @@ pipeline {
                 bat 'mvn test'
             }
         }
+
+        stage('Generate Allure Report') {
+            steps {
+                bat '"C:\\tmp\\allure-2.34.0\\bin\\allure.bat" generate allure-results --clean -o allure-report'
+            }
+        }
+
     }
 
     post {
         always {
             junit '**/target/surefire-reports/*.xml'
+            archiveArtifacts artifacts: 'allure-report/**', fingerprint: true
         }
     }
 }
