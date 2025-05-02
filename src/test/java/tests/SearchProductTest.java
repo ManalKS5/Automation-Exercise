@@ -8,6 +8,7 @@ import pages.ProductsPage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Listeners;
+
 @Listeners(listeners.TestFailureListener.class)
 public class SearchProductTest extends BaseTest {
 
@@ -51,8 +52,8 @@ public class SearchProductTest extends BaseTest {
         }
     }
 
-//    @Test
-//    public void triggerFailure() {
-//        Assert.assertEquals(1, 2, "This is an intentional failure for testing Jira bug creation.");
-//    }
+    @Test
+    public void triggerFailure() {
+        Assert.assertEquals(1, 2, "This is an intentional failure for testing Jira bug creation.");
+    }
 }
