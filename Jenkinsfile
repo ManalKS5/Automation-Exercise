@@ -7,28 +7,28 @@ pipeline {
     }
 
     environment {
-        JIRA_USERNAME = credentials('JIRA_USERNAME')
-        JIRA_TOKEN = credentials('JIRA_API_TOKEN')
-        JIRA_API_URL = 'https://mtester139.atlassian.net' ///rest/api/2/issue'
+        JIRA_USERNAME    = credentials('JIRA_USERNAME')
+        JIRA_TOKEN       = credentials('JIRA_API_TOKEN')
+        JIRA_API_URL     = 'https://mtester139.atlassian.net'  ///rest/api/2/issue'
         JIRA_PROJECT_KEY = 'ATE'
     }
 
     stages {
         stage('Checkout Code') {
             steps {
-               git branch: 'main', url: 'https://github.com/ManalKS5/Automation-Exercise.git'
+                git branch: 'main', url: 'https://github.com/ManalKS5/Automation-Exercise.git'
             }
         }
 
         stage('Build') {
             steps {
-                sh 'mvn clean compile'
+                bat 'mvn clean compile'
             }
         }
 
         stage('Run Tests') {
             steps {
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
     }
