@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/ManalKS5/Automation-Exercise.git'
+               git branch: 'main', url: 'https://github.com/ManalKS5/Automation-Exercise.git'
             }
         }
 
