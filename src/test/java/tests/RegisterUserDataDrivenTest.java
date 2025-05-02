@@ -9,7 +9,8 @@ import org.testng.SkipException;
 import org.testng.annotations.Test;
 import pages.*;
 import utils.ExcelReader;
-
+import org.testng.annotations.Listeners;
+@Listeners(listeners.TestFailureListener.class)
 public class RegisterUserDataDrivenTest extends BaseTest {
 
     private static final Logger logger = LogManager.getLogger(RegisterUserDataDrivenTest.class);

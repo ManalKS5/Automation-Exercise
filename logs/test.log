@@ -152,3 +152,569 @@ Session ID: 77f6f51434973d8b9df422b22152e033
 2025-05-01 05:33:18 INFO  ContactUsDataDrivenTest:44 - Test finished
 2025-05-01 05:33:23 INFO  ContactUsDataDrivenTest:23 - Test started
 2025-05-01 05:33:29 INFO  ContactUsDataDrivenTest:44 - Test finished
+2025-05-02 03:30:03 INFO  RegisterUserTest:27 - Test started: Register user with static data
+2025-05-02 03:30:03 INFO  RegisterUserTest:29 - Step 1: Verifying that home page is visible
+2025-05-02 03:30:03 INFO  RegisterUserTest:32 - Step 2: Clicking on Signup/Login
+2025-05-02 03:30:04 INFO  RegisterUserTest:35 - Step 3: Verifying New User Signup section is visible
+2025-05-02 03:30:04 INFO  RegisterUserTest:38 - Step 4: Entering name and email
+2025-05-02 03:30:05 INFO  RegisterUserTest:41 - Step 5: Clicking Signup button
+2025-05-02 03:30:06 INFO  RegisterUserTest:50 - Step 6: Verifying Account Information section is visible
+2025-05-02 03:30:06 INFO  RegisterUserTest:53 - Step 7: Filling account information
+2025-05-02 03:30:07 INFO  RegisterUserTest:56 - Step 8: Selecting newsletter and offers
+2025-05-02 03:30:07 INFO  RegisterUserTest:60 - Step 9: Filling address information
+2025-05-02 03:30:09 INFO  RegisterUserTest:63 - Step 10: Clicking Create Account
+2025-05-02 03:30:10 INFO  RegisterUserTest:66 - Step 11: Verifying Account Created
+2025-05-02 03:30:10 INFO  RegisterUserTest:69 - Step 12: Clicking Continue
+2025-05-02 03:30:14 INFO  RegisterUserTest:72 - Step 13: Verifying user is logged in
+2025-05-02 03:30:14 INFO  RegisterUserTest:75 - Step 14: Deleting account
+2025-05-02 03:30:15 INFO  RegisterUserTest:78 - Step 15: Verifying Account Deleted
+2025-05-02 03:30:19 INFO  RegisterUserTest:82 - Test finished successfully
+2025-05-02 03:30:26 INFO  ContactUsFormTest:20 - Starting Contact Us form submission test
+2025-05-02 03:30:26 INFO  ContactUsFormTest:26 - Verifying home page is visible
+2025-05-02 03:30:26 INFO  ContactUsFormTest:29 - Navigating to Contact Us page
+2025-05-02 03:30:30 INFO  ContactUsFormTest:32 - Checking if 'GET IN TOUCH' is visible
+2025-05-02 03:30:30 INFO  ContactUsFormTest:35 - Filling contact form
+2025-05-02 03:30:31 INFO  ContactUsFormTest:43 - Uploading file
+2025-05-02 03:30:31 INFO  ContactUsFormTest:46 - Submitting form
+2025-05-02 03:30:31 INFO  ContactUsFormTest:49 - Accepting alert
+2025-05-02 03:30:31 INFO  ContactUsFormTest:52 - Verifying success message
+2025-05-02 03:30:32 INFO  ContactUsFormTest:55 - Returning to Home page
+2025-05-02 03:30:36 INFO  ContactUsFormTest:59 - Contact Us test completed successfully
+2025-05-02 03:30:43 INFO  SearchProductTest:19 - Starting 'searchProduct' test
+2025-05-02 03:30:43 INFO  SearchProductTest:25 - Verifying that home page is visible
+2025-05-02 03:30:43 INFO  SearchProductTest:28 - Clicking on 'Products' button
+2025-05-02 03:30:52 INFO  SearchProductTest:31 - Verifying that user is navigated to ALL PRODUCTS page
+2025-05-02 03:30:52 INFO  SearchProductTest:35 - Searching for product with keyword: dress
+2025-05-02 03:30:55 INFO  SearchProductTest:38 - Verifying that 'SEARCHED PRODUCTS' section is visible
+2025-05-02 03:30:55 INFO  SearchProductTest:41 - Verifying that searched products are displayed
+2025-05-02 03:30:55 INFO  SearchProductTest:44 - 'searchProductSuccessfully' test passed
+2025-05-02 03:31:03 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: NouraS@gmail.com
+2025-05-02 03:31:03 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 03:31:03 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 03:31:04 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 03:31:04 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: Noura, NouraS@gmail.com
+2025-05-02 03:31:06 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 03:31:06 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 03:31:07 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 03:31:08 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 03:31:10 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 03:31:12 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as Noura
+2025-05-02 03:31:12 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 03:31:13 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 03:31:17 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for NouraS@gmail.com
+2025-05-02 03:31:24 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: Sara22@hotmail.com
+2025-05-02 03:31:24 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 03:31:24 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 03:31:25 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 03:31:25 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: SarJon, Sara22@hotmail.com
+2025-05-02 03:31:26 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 03:31:27 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 03:31:28 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 03:31:29 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 03:31:31 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 03:31:35 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as SarJon
+2025-05-02 03:31:35 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 03:31:36 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 03:31:39 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for Sara22@hotmail.com
+2025-05-02 03:31:45 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: Mbrown@example.com
+2025-05-02 03:31:45 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 03:31:45 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 03:31:46 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 03:31:46 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: M12k, Mbrown@example.com
+2025-05-02 03:31:48 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 03:31:48 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 03:31:49 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 03:31:50 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 03:31:52 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 03:31:55 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as M12k
+2025-05-02 03:31:55 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 03:31:56 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 03:32:00 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for Mbrown@example.com
+2025-05-02 03:32:06 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: Lwhite@example.com
+2025-05-02 03:32:06 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 03:32:06 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 03:32:06 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 03:32:06 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: Laura, Lwhite@example.com
+2025-05-02 03:32:08 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 03:32:08 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 03:32:09 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 03:32:10 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 03:32:12 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 03:32:15 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as Laura
+2025-05-02 03:32:15 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 03:32:16 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 03:32:20 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for Lwhite@example.com
+2025-05-02 03:32:26 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: dgreen@example.com
+2025-05-02 03:32:26 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 03:32:26 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 03:32:28 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 03:32:28 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: Dgreen, dgreen@example.com
+2025-05-02 03:32:29 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 03:32:29 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 03:32:30 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 03:32:32 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 03:32:33 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 03:32:37 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as Dgreen
+2025-05-02 03:32:37 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 03:32:38 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 03:32:41 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for dgreen@example.com
+2025-05-02 03:32:47 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 03:33:01 INFO  ContactUsDataDrivenTest:46 - Test finished
+2025-05-02 03:33:08 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 03:33:16 INFO  ContactUsDataDrivenTest:46 - Test finished
+2025-05-02 03:33:22 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 03:33:29 INFO  ContactUsDataDrivenTest:46 - Test finished
+2025-05-02 03:33:34 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 03:33:43 INFO  ContactUsDataDrivenTest:46 - Test finished
+2025-05-02 03:44:36 INFO  RegisterUserTest:27 - Test started: Register user with static data
+2025-05-02 03:44:36 INFO  RegisterUserTest:29 - Step 1: Verifying that home page is visible
+2025-05-02 03:44:36 INFO  RegisterUserTest:32 - Step 2: Clicking on Signup/Login
+2025-05-02 03:44:37 INFO  RegisterUserTest:35 - Step 3: Verifying New User Signup section is visible
+2025-05-02 03:44:37 INFO  RegisterUserTest:38 - Step 4: Entering name and email
+2025-05-02 03:44:37 INFO  RegisterUserTest:41 - Step 5: Clicking Signup button
+2025-05-02 03:44:38 INFO  RegisterUserTest:50 - Step 6: Verifying Account Information section is visible
+2025-05-02 03:44:38 INFO  RegisterUserTest:53 - Step 7: Filling account information
+2025-05-02 03:44:39 INFO  RegisterUserTest:56 - Step 8: Selecting newsletter and offers
+2025-05-02 03:44:40 INFO  RegisterUserTest:60 - Step 9: Filling address information
+2025-05-02 03:44:41 INFO  RegisterUserTest:63 - Step 10: Clicking Create Account
+2025-05-02 03:44:42 INFO  RegisterUserTest:66 - Step 11: Verifying Account Created
+2025-05-02 03:44:42 INFO  RegisterUserTest:69 - Step 12: Clicking Continue
+2025-05-02 03:44:46 INFO  RegisterUserTest:72 - Step 13: Verifying user is logged in
+2025-05-02 03:44:46 INFO  RegisterUserTest:75 - Step 14: Deleting account
+2025-05-02 03:44:47 INFO  RegisterUserTest:78 - Step 15: Verifying Account Deleted
+2025-05-02 03:44:51 INFO  RegisterUserTest:82 - Test finished successfully
+2025-05-02 03:44:59 INFO  ContactUsFormTest:20 - Starting Contact Us form submission test
+2025-05-02 03:44:59 INFO  ContactUsFormTest:26 - Verifying home page is visible
+2025-05-02 03:44:59 INFO  ContactUsFormTest:29 - Navigating to Contact Us page
+2025-05-02 03:45:04 INFO  ContactUsFormTest:32 - Checking if 'GET IN TOUCH' is visible
+2025-05-02 03:45:04 INFO  ContactUsFormTest:35 - Filling contact form
+2025-05-02 03:45:05 INFO  ContactUsFormTest:43 - Uploading file
+2025-05-02 03:45:05 INFO  ContactUsFormTest:46 - Submitting form
+2025-05-02 03:45:05 INFO  ContactUsFormTest:49 - Accepting alert
+2025-05-02 03:45:05 INFO  ContactUsFormTest:52 - Verifying success message
+2025-05-02 03:45:05 INFO  ContactUsFormTest:55 - Returning to Home page
+2025-05-02 03:45:10 INFO  ContactUsFormTest:59 - Contact Us test completed successfully
+2025-05-02 03:45:24 INFO  SearchProductTest:19 - Starting 'searchProduct' test
+2025-05-02 03:45:24 INFO  SearchProductTest:25 - Verifying that home page is visible
+2025-05-02 03:45:24 INFO  SearchProductTest:28 - Clicking on 'Products' button
+2025-05-02 03:45:28 INFO  SearchProductTest:31 - Verifying that user is navigated to ALL PRODUCTS page
+2025-05-02 03:45:28 INFO  SearchProductTest:35 - Searching for product with keyword: dress
+2025-05-02 03:45:30 INFO  SearchProductTest:38 - Verifying that 'SEARCHED PRODUCTS' section is visible
+2025-05-02 03:45:30 INFO  SearchProductTest:41 - Verifying that searched products are displayed
+2025-05-02 03:45:30 INFO  SearchProductTest:44 - 'searchProductSuccessfully' test passed
+2025-05-02 03:45:38 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: NouraS@gmail.com
+2025-05-02 03:45:38 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 03:45:38 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 03:45:39 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 03:45:40 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: Noura, NouraS@gmail.com
+2025-05-02 03:45:44 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 03:45:44 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 03:45:45 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 03:45:47 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 03:45:49 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 03:45:52 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as Noura
+2025-05-02 03:45:52 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 03:45:53 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 03:45:57 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for NouraS@gmail.com
+2025-05-02 03:46:02 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: Sara22@hotmail.com
+2025-05-02 03:46:02 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 03:46:02 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 03:46:03 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 03:46:03 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: SarJon, Sara22@hotmail.com
+2025-05-02 03:46:05 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 03:46:05 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 03:46:06 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 03:46:07 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 03:46:09 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 03:46:12 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as SarJon
+2025-05-02 03:46:12 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 03:46:14 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 03:46:17 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for Sara22@hotmail.com
+2025-05-02 03:46:20 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: Mbrown@example.com
+2025-05-02 03:46:20 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 03:46:23 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 03:46:24 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 03:46:24 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: M12k, Mbrown@example.com
+2025-05-02 03:46:26 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 03:46:26 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 03:46:27 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 03:46:29 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 03:46:30 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 03:46:34 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as M12k
+2025-05-02 03:46:34 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 03:46:35 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 03:46:38 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for Mbrown@example.com
+2025-05-02 03:46:44 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: Lwhite@example.com
+2025-05-02 03:46:44 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 03:46:44 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 03:46:45 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 03:46:45 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: Laura, Lwhite@example.com
+2025-05-02 03:46:46 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 03:46:46 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 03:46:47 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 03:46:49 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 03:46:50 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 03:46:54 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as Laura
+2025-05-02 03:46:54 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 03:46:55 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 03:46:58 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for Lwhite@example.com
+2025-05-02 03:47:03 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: dgreen@example.com
+2025-05-02 03:47:03 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 03:47:03 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 03:47:05 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 03:47:05 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: Dgreen, dgreen@example.com
+2025-05-02 03:47:07 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 03:47:07 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 03:47:08 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 03:47:09 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 03:47:11 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 03:47:15 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as Dgreen
+2025-05-02 03:47:15 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 03:47:16 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 03:47:20 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for dgreen@example.com
+2025-05-02 03:48:09 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 03:48:09 ERROR ContactUsDataDrivenTest:49 - Test failed with exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f1b6612d74ea8ec440c88fa3c200816, findElement {value=//a[contains(text(),'Signup / Login')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\moomo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51155}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51155/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f1b6612d74ea8ec440c88fa3c200816
+2025-05-02 03:48:15 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 03:48:22 INFO  ContactUsDataDrivenTest:46 - Test finished
+2025-05-02 03:48:28 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 03:48:35 INFO  ContactUsDataDrivenTest:46 - Test finished
+2025-05-02 03:48:45 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 03:48:57 INFO  ContactUsDataDrivenTest:46 - Test finished
+2025-05-02 03:53:49 INFO  RegisterUserTest:27 - Test started: Register user with static data
+2025-05-02 03:53:49 INFO  RegisterUserTest:29 - Step 1: Verifying that home page is visible
+2025-05-02 03:53:49 ERROR RegisterUserTest:91 - Unexpected error occurred: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f4046ded52886a17e5e348b3d2776cd, findElement {using=xpath, value=//a[contains(text(),'Signup / Login')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\moomo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51357/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f4046ded52886a17e5e348b3d2776cd
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f4046ded52886a17e5e348b3d2776cd, findElement {using=xpath, value=//a[contains(text(),'Signup / Login')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\moomo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51357/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f4046ded52886a17e5e348b3d2776cd
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.31.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.31.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.31.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.31.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.31.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.31.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.31.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.31.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.31.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.31.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.31.0.jar:?]
+	at pages.HomePage.isHomePageVisible(HomePage.java:22) ~[classes/:?]
+	at tests.RegisterUserTest.registerUserSuccessfully(RegisterUserTest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-05-02 03:57:17 INFO  RegisterUserTest:27 - Test started: Register user with static data
+2025-05-02 03:57:18 INFO  RegisterUserTest:29 - Step 1: Verifying that home page is visible
+2025-05-02 03:57:18 INFO  RegisterUserTest:32 - Step 2: Clicking on Signup/Login
+2025-05-02 03:57:19 INFO  RegisterUserTest:35 - Step 3: Verifying New User Signup section is visible
+2025-05-02 03:57:20 INFO  RegisterUserTest:38 - Step 4: Entering name and email
+2025-05-02 03:57:21 INFO  RegisterUserTest:41 - Step 5: Clicking Signup button
+2025-05-02 03:57:22 INFO  RegisterUserTest:50 - Step 6: Verifying Account Information section is visible
+2025-05-02 03:57:22 INFO  RegisterUserTest:53 - Step 7: Filling account information
+2025-05-02 03:57:24 INFO  RegisterUserTest:56 - Step 8: Selecting newsletter and offers
+2025-05-02 03:57:24 INFO  RegisterUserTest:60 - Step 9: Filling address information
+2025-05-02 03:57:27 INFO  RegisterUserTest:63 - Step 10: Clicking Create Account
+2025-05-02 03:57:30 INFO  RegisterUserTest:66 - Step 11: Verifying Account Created
+2025-05-02 03:57:30 INFO  RegisterUserTest:69 - Step 12: Clicking Continue
+2025-05-02 03:57:36 INFO  RegisterUserTest:72 - Step 13: Verifying user is logged in
+2025-05-02 03:57:36 INFO  RegisterUserTest:75 - Step 14: Deleting account
+2025-05-02 03:57:37 INFO  RegisterUserTest:78 - Step 15: Verifying Account Deleted
+2025-05-02 03:57:42 INFO  RegisterUserTest:82 - Test finished successfully
+2025-05-02 03:57:51 INFO  ContactUsFormTest:20 - Starting Contact Us form submission test
+2025-05-02 03:57:51 INFO  ContactUsFormTest:26 - Verifying home page is visible
+2025-05-02 03:57:51 INFO  ContactUsFormTest:29 - Navigating to Contact Us page
+2025-05-02 03:57:54 INFO  ContactUsFormTest:32 - Checking if 'GET IN TOUCH' is visible
+2025-05-02 03:57:54 INFO  ContactUsFormTest:35 - Filling contact form
+2025-05-02 03:57:55 INFO  ContactUsFormTest:43 - Uploading file
+2025-05-02 03:57:55 INFO  ContactUsFormTest:46 - Submitting form
+2025-05-02 03:57:55 INFO  ContactUsFormTest:49 - Accepting alert
+2025-05-02 03:57:55 INFO  ContactUsFormTest:52 - Verifying success message
+2025-05-02 03:57:56 INFO  ContactUsFormTest:55 - Returning to Home page
+2025-05-02 03:58:00 INFO  ContactUsFormTest:59 - Contact Us test completed successfully
+2025-05-02 03:58:16 INFO  SearchProductTest:19 - Starting 'searchProduct' test
+2025-05-02 03:58:16 INFO  SearchProductTest:25 - Verifying that home page is visible
+2025-05-02 03:58:16 INFO  SearchProductTest:28 - Clicking on 'Products' button
+2025-05-02 03:58:24 INFO  SearchProductTest:31 - Verifying that user is navigated to ALL PRODUCTS page
+2025-05-02 03:58:24 INFO  SearchProductTest:35 - Searching for product with keyword: dress
+2025-05-02 03:58:27 INFO  SearchProductTest:38 - Verifying that 'SEARCHED PRODUCTS' section is visible
+2025-05-02 03:58:27 INFO  SearchProductTest:41 - Verifying that searched products are displayed
+2025-05-02 03:58:27 INFO  SearchProductTest:44 - 'searchProductSuccessfully' test passed
+2025-05-02 03:58:36 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: NouraS@gmail.com
+2025-05-02 03:58:36 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 03:58:36 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 03:58:39 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 03:58:39 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: Noura, NouraS@gmail.com
+2025-05-02 03:58:41 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 03:58:41 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 03:58:43 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 03:58:45 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 03:58:48 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 03:58:53 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as Noura
+2025-05-02 03:58:53 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 03:58:54 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 03:58:58 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for NouraS@gmail.com
+2025-05-02 03:59:04 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: Sara22@hotmail.com
+2025-05-02 03:59:04 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 03:59:04 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 03:59:05 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 03:59:05 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: SarJon, Sara22@hotmail.com
+2025-05-02 03:59:07 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 03:59:07 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 03:59:10 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 03:59:13 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 03:59:16 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 03:59:21 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as SarJon
+2025-05-02 03:59:21 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 03:59:23 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 03:59:27 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for Sara22@hotmail.com
+2025-05-02 03:59:34 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: Mbrown@example.com
+2025-05-02 03:59:34 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 03:59:34 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 03:59:36 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 03:59:36 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: M12k, Mbrown@example.com
+2025-05-02 03:59:38 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 03:59:38 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 03:59:40 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 03:59:43 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 03:59:46 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 03:59:49 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as M12k
+2025-05-02 03:59:49 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 03:59:50 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 03:59:55 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for Mbrown@example.com
+2025-05-02 04:00:04 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: Lwhite@example.com
+2025-05-02 04:00:04 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 04:00:04 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 04:00:05 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 04:00:05 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: Laura, Lwhite@example.com
+2025-05-02 04:00:08 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 04:00:08 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 04:00:10 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 04:00:12 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 04:00:15 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 04:00:20 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as Laura
+2025-05-02 04:00:20 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 04:00:24 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 04:00:28 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for Lwhite@example.com
+2025-05-02 04:00:34 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: dgreen@example.com
+2025-05-02 04:00:34 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 04:00:34 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 04:00:35 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 04:00:35 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: Dgreen, dgreen@example.com
+2025-05-02 04:00:37 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 04:00:37 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 04:00:39 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 04:00:42 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 04:00:45 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 04:00:50 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as Dgreen
+2025-05-02 04:00:50 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 04:00:52 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 04:00:57 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for dgreen@example.com
+2025-05-02 04:01:05 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 04:01:14 INFO  ContactUsDataDrivenTest:46 - Test finished
+2025-05-02 04:02:12 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 04:02:13 ERROR ContactUsDataDrivenTest:49 - Test failed with exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cdb0a1b7fc15daa9e5559ae8aceaf8e0, findElement {using=xpath, value=//a[contains(text(),'Signup / Login')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\moomo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51796}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51796/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cdb0a1b7fc15daa9e5559ae8aceaf8e0
+2025-05-02 04:02:20 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 04:02:30 INFO  ContactUsDataDrivenTest:46 - Test finished
+2025-05-02 04:02:37 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 04:02:49 INFO  ContactUsDataDrivenTest:46 - Test finished
+2025-05-02 06:14:31 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 06:14:37 INFO  ContactUsDataDrivenTest:46 - Test finished
+2025-05-02 06:14:42 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 06:14:48 INFO  ContactUsDataDrivenTest:46 - Test finished
+2025-05-02 06:14:59 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 06:16:54 INFO  RegisterUserTest:27 - Test started: Register user with static data
+2025-05-02 06:16:54 INFO  RegisterUserTest:29 - Step 1: Verifying that home page is visible
+2025-05-02 06:16:54 INFO  RegisterUserTest:32 - Step 2: Clicking on Signup/Login
+2025-05-02 06:16:55 INFO  RegisterUserTest:35 - Step 3: Verifying New User Signup section is visible
+2025-05-02 06:16:55 INFO  RegisterUserTest:38 - Step 4: Entering name and email
+2025-05-02 06:16:55 INFO  RegisterUserTest:41 - Step 5: Clicking Signup button
+2025-05-02 06:16:56 INFO  RegisterUserTest:50 - Step 6: Verifying Account Information section is visible
+2025-05-02 06:16:56 INFO  RegisterUserTest:53 - Step 7: Filling account information
+2025-05-02 06:16:56 INFO  RegisterUserTest:56 - Step 8: Selecting newsletter and offers
+2025-05-02 06:16:57 INFO  RegisterUserTest:60 - Step 9: Filling address information
+2025-05-02 06:16:58 INFO  RegisterUserTest:63 - Step 10: Clicking Create Account
+2025-05-02 06:16:59 INFO  RegisterUserTest:66 - Step 11: Verifying Account Created
+2025-05-02 06:16:59 INFO  RegisterUserTest:69 - Step 12: Clicking Continue
+2025-05-02 06:17:03 INFO  RegisterUserTest:72 - Step 13: Verifying user is logged in
+2025-05-02 06:17:03 INFO  RegisterUserTest:75 - Step 14: Deleting account
+2025-05-02 06:17:04 INFO  RegisterUserTest:78 - Step 15: Verifying Account Deleted
+2025-05-02 06:17:08 INFO  RegisterUserTest:82 - Test finished successfully
+2025-05-02 06:17:16 INFO  ContactUsFormTest:20 - Starting Contact Us form submission test
+2025-05-02 06:17:16 INFO  ContactUsFormTest:26 - Verifying home page is visible
+2025-05-02 06:17:16 INFO  ContactUsFormTest:29 - Navigating to Contact Us page
+2025-05-02 06:17:18 INFO  ContactUsFormTest:32 - Checking if 'GET IN TOUCH' is visible
+2025-05-02 06:17:18 INFO  ContactUsFormTest:35 - Filling contact form
+2025-05-02 06:17:18 INFO  ContactUsFormTest:43 - Uploading file
+2025-05-02 06:17:18 INFO  ContactUsFormTest:46 - Submitting form
+2025-05-02 06:17:18 INFO  ContactUsFormTest:49 - Accepting alert
+2025-05-02 06:17:18 INFO  ContactUsFormTest:52 - Verifying success message
+2025-05-02 06:17:19 INFO  ContactUsFormTest:55 - Returning to Home page
+2025-05-02 06:17:22 INFO  ContactUsFormTest:59 - Contact Us test completed successfully
+2025-05-02 06:26:56 INFO  RegisterUserTest:27 - Test started: Register user with static data
+2025-05-02 06:26:56 INFO  RegisterUserTest:29 - Step 1: Verifying that home page is visible
+2025-05-02 06:26:56 INFO  RegisterUserTest:32 - Step 2: Clicking on Signup/Login
+2025-05-02 06:26:57 INFO  RegisterUserTest:35 - Step 3: Verifying New User Signup section is visible
+2025-05-02 06:26:57 INFO  RegisterUserTest:38 - Step 4: Entering name and email
+2025-05-02 06:26:57 INFO  RegisterUserTest:41 - Step 5: Clicking Signup button
+2025-05-02 06:26:58 INFO  RegisterUserTest:50 - Step 6: Verifying Account Information section is visible
+2025-05-02 06:26:58 INFO  RegisterUserTest:53 - Step 7: Filling account information
+2025-05-02 06:26:58 INFO  RegisterUserTest:56 - Step 8: Selecting newsletter and offers
+2025-05-02 06:26:59 INFO  RegisterUserTest:60 - Step 9: Filling address information
+2025-05-02 06:27:00 INFO  RegisterUserTest:63 - Step 10: Clicking Create Account
+2025-05-02 06:27:02 INFO  RegisterUserTest:66 - Step 11: Verifying Account Created
+2025-05-02 06:27:02 INFO  RegisterUserTest:69 - Step 12: Clicking Continue
+2025-05-02 06:27:06 INFO  RegisterUserTest:72 - Step 13: Verifying user is logged in
+2025-05-02 06:27:06 INFO  RegisterUserTest:75 - Step 14: Deleting account
+2025-05-02 06:27:07 INFO  RegisterUserTest:78 - Step 15: Verifying Account Deleted
+2025-05-02 06:27:10 INFO  RegisterUserTest:82 - Test finished successfully
+2025-05-02 06:27:16 INFO  ContactUsFormTest:20 - Starting Contact Us form submission test
+2025-05-02 06:27:16 INFO  ContactUsFormTest:26 - Verifying home page is visible
+2025-05-02 06:27:16 INFO  ContactUsFormTest:29 - Navigating to Contact Us page
+2025-05-02 06:27:19 INFO  ContactUsFormTest:32 - Checking if 'GET IN TOUCH' is visible
+2025-05-02 06:27:19 INFO  ContactUsFormTest:35 - Filling contact form
+2025-05-02 06:27:19 INFO  ContactUsFormTest:43 - Uploading file
+2025-05-02 06:27:19 INFO  ContactUsFormTest:46 - Submitting form
+2025-05-02 06:27:19 INFO  ContactUsFormTest:49 - Accepting alert
+2025-05-02 06:27:19 INFO  ContactUsFormTest:52 - Verifying success message
+2025-05-02 06:27:19 INFO  ContactUsFormTest:55 - Returning to Home page
+2025-05-02 06:27:23 INFO  ContactUsFormTest:59 - Contact Us test completed successfully
+2025-05-02 06:27:31 INFO  SearchProductTest:19 - Starting 'searchProduct' test
+2025-05-02 06:27:31 INFO  SearchProductTest:25 - Verifying that home page is visible
+2025-05-02 06:27:31 INFO  SearchProductTest:28 - Clicking on 'Products' button
+2025-05-02 06:27:39 INFO  SearchProductTest:31 - Verifying that user is navigated to ALL PRODUCTS page
+2025-05-02 06:27:39 INFO  SearchProductTest:35 - Searching for product with keyword: dress
+2025-05-02 06:27:42 INFO  SearchProductTest:38 - Verifying that 'SEARCHED PRODUCTS' section is visible
+2025-05-02 06:27:42 INFO  SearchProductTest:41 - Verifying that searched products are displayed
+2025-05-02 06:27:42 INFO  SearchProductTest:44 - 'searchProductSuccessfully' test passed
+2025-05-02 06:27:54 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: NouraS@gmail.com
+2025-05-02 06:27:55 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 06:27:55 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 06:27:56 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 06:27:56 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: Noura, NouraS@gmail.com
+2025-05-02 06:27:57 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 06:27:57 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 06:27:58 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 06:27:59 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 06:28:02 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 06:28:06 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as Noura
+2025-05-02 06:28:06 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 06:28:07 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 06:28:10 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for NouraS@gmail.com
+2025-05-02 06:28:18 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: Sara22@hotmail.com
+2025-05-02 06:28:18 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 06:28:18 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 06:28:20 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 06:28:20 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: SarJon, Sara22@hotmail.com
+2025-05-02 06:28:21 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 06:28:21 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 06:28:22 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 06:28:23 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 06:28:24 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 06:28:30 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as SarJon
+2025-05-02 06:28:30 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 06:28:31 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 06:28:36 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for Sara22@hotmail.com
+2025-05-02 06:28:43 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: Mbrown@example.com
+2025-05-02 06:28:43 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 06:28:43 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 06:28:44 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 06:28:44 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: M12k, Mbrown@example.com
+2025-05-02 06:28:45 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 06:28:45 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 06:28:46 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 06:28:47 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 06:28:50 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 06:28:54 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as M12k
+2025-05-02 06:28:54 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 06:28:55 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 06:28:59 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for Mbrown@example.com
+2025-05-02 06:29:05 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: Lwhite@example.com
+2025-05-02 06:29:05 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 06:29:05 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 06:29:06 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 06:29:06 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: Laura, Lwhite@example.com
+2025-05-02 06:29:08 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 06:29:08 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 06:29:08 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 06:29:10 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 06:29:12 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 06:29:16 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as Laura
+2025-05-02 06:29:16 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 06:29:18 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 06:29:22 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for Lwhite@example.com
+2025-05-02 06:29:28 INFO  RegisterUserDataDrivenTest:24 - Starting registration test for: dgreen@example.com
+2025-05-02 06:29:28 INFO  RegisterUserDataDrivenTest:34 - Verifying home page is visible
+2025-05-02 06:29:28 INFO  RegisterUserDataDrivenTest:37 - Navigating to Signup/Login page
+2025-05-02 06:29:30 INFO  RegisterUserDataDrivenTest:40 - Checking if 'New User Signup!' is visible
+2025-05-02 06:29:30 INFO  RegisterUserDataDrivenTest:43 - Entering Name and Email: Dgreen, dgreen@example.com
+2025-05-02 06:29:31 INFO  RegisterUserDataDrivenTest:53 - Verifying 'Enter Account Information' section is visible
+2025-05-02 06:29:31 INFO  RegisterUserDataDrivenTest:56 - Filling account information
+2025-05-02 06:29:32 INFO  RegisterUserDataDrivenTest:61 - Filling address information
+2025-05-02 06:29:33 INFO  RegisterUserDataDrivenTest:64 - Submitting form to create account
+2025-05-02 06:29:35 INFO  RegisterUserDataDrivenTest:67 - Verifying account creation
+2025-05-02 06:29:38 INFO  RegisterUserDataDrivenTest:72 - Verifying logged in as Dgreen
+2025-05-02 06:29:38 INFO  RegisterUserDataDrivenTest:75 - Deleting created account
+2025-05-02 06:29:39 INFO  RegisterUserDataDrivenTest:78 - Verifying account deletion
+2025-05-02 06:29:42 INFO  RegisterUserDataDrivenTest:82 - Test finished successfully for dgreen@example.com
+2025-05-02 06:29:47 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 06:29:58 INFO  ContactUsDataDrivenTest:46 - Test finished
+2025-05-02 06:30:12 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 06:30:19 INFO  ContactUsDataDrivenTest:46 - Test finished
+2025-05-02 06:30:26 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 06:30:32 INFO  ContactUsDataDrivenTest:46 - Test finished
+2025-05-02 06:30:38 INFO  ContactUsDataDrivenTest:25 - Test started
+2025-05-02 06:30:45 INFO  ContactUsDataDrivenTest:46 - Test finished

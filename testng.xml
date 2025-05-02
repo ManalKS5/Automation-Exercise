@@ -10,4 +10,7 @@
             <class name="tests.ContactUsDataDrivenTest"/>
         </classes>
     </test>
+    <listeners>
+        <listener class-name="listeners.TestFailureListener"/>
+    </listeners>
 </suite>

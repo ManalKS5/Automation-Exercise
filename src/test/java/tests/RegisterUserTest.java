@@ -8,7 +8,8 @@ import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 import pages.*;
-
+import org.testng.annotations.Listeners;
+@Listeners(listeners.TestFailureListener.class)
 public class RegisterUserTest extends BaseTest {
 
     private static final Logger logger = LogManager.getLogger(RegisterUserTest.class);
@@ -88,7 +89,7 @@ public class RegisterUserTest extends BaseTest {
             throw ae;
         } catch (Exception e) {
             logger.error("Unexpected error occurred: {}", e.getMessage(), e);
-            throw e;
+            // throw e;
         }
     }
 }

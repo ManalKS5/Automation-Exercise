@@ -7,7 +7,8 @@ import pages.HomePage;
 import pages.ProductsPage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
+import org.testng.annotations.Listeners;
+@Listeners(listeners.TestFailureListener.class)
 public class SearchProductTest extends BaseTest {
 
     private static final Logger logger = LogManager.getLogger(SearchProductTest.class);
@@ -49,4 +50,9 @@ public class SearchProductTest extends BaseTest {
             logger.error("Unexpected error occurred: {}", e.getMessage(), e);
         }
     }
+
+//    @Test
+//    public void triggerFailure() {
+//        Assert.assertEquals(1, 2, "This is an intentional failure for testing Jira bug creation.");
+//    }
 }

@@ -8,6 +8,8 @@ import org.testng.annotations.Test;
 import pages.ContactUsPage;
 import pages.HomePage;
 
+import org.testng.annotations.Listeners;
+@Listeners(listeners.TestFailureListener.class)
 public class ContactUsFormTest extends BaseTest {
 
     private static final Logger logger = LogManager.getLogger(ContactUsFormTest.class);

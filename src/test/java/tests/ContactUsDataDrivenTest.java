@@ -4,11 +4,13 @@ import base.BaseTest;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.ContactUsPage;
 import pages.HomePage;
 import utils.CSVReader;
 
+@Listeners(listeners.TestFailureListener.class)
 public class ContactUsDataDrivenTest extends BaseTest {
 
     private static final Logger logger = LogManager.getLogger(ContactUsDataDrivenTest.class);
