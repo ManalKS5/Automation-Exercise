@@ -27,11 +27,23 @@ pipeline {
             }
         }
 
-        stage('Run Tests') {
+        stage('Run Basic Tests') {
             steps {
-                bat 'mvn test'
+                bat 'mvn test -DsuiteXmlFile=testng-basic.xml'
             }
         }
+
+        stage('Run Data-Driven Tests') {
+            steps {
+                bat 'mvn test -DsuiteXmlFile=testng-data.xml'
+            }
+        }
+
+        stage('Run FailureTests') {
+             steps {
+                 bat 'mvn test -DsuiteXmlFile=testing.xml -Dtest=FailureTests'
+              }
+         }
 
         stage('Generate Allure Report') {
             steps {

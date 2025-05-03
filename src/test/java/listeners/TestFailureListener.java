@@ -38,20 +38,19 @@ public class TestFailureListener implements ITestListener {
         Throwable throwable = result.getThrowable();
         String exceptionMessage = (throwable != null) ? throwable.toString() : "Unknown failure";
 
-        // Convert stack trace to string (optional)
         StringWriter sw = new StringWriter();
         if (throwable != null) {
             throwable.printStackTrace(new PrintWriter(sw));
         }
         String stackTrace = sw.toString();
 
-        String summary = "❌ Automated Test Failed: " + testName;
+        String summary = "Automated Test Failed: " + testName;
         String description =
                 "🔹 Test Class: " + testClass + "\n" +
                         "🔸 Failure Reason: " + exceptionMessage + "\n\n" +
                         "🧵 Stack Trace:\n" + stackTrace;
 
-        System.out.println("📍 [TestFailureListener] Detected failure in: " + testClass + "." + testName);
+        System.out.println("[TestFailureListener] Detected failure in: " + testClass + "." + testName);
         JiraBugReporter.createBug(summary, description);
     }
 }

@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="AutomationExerciseSuite" parallel="false" preserve-order="true">
-    <test name="AllTests">
+
+    <test name="BasicTests">
         <classes>
             <class name="tests.RegisterUserTest"/>
             <class name="tests.ContactUsFormTest"/>
             <class name="tests.SearchProductTest"/>
+        </classes>
+    </test>
+
+    <test name="DataDrivenTests">
+        <classes>
             <class name="tests.RegisterUserDataDrivenTest"/>
             <class name="tests.ContactUsDataDrivenTest"/>
         </classes>
     </test>
+
+    <test name="FailureTests">
+        <classes>
+            <class name="tests.FailTest"/>
+        </classes>
+    </test>
+
     <listeners>
         <listener class-name="listeners.TestFailureListener"/>
     </listeners>
+
 </suite>
+
+
+
