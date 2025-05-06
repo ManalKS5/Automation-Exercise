@@ -93,7 +93,7 @@ The Jenkinsfile defines the pipeline steps, including:
 
 ---
 
-🙋 Author
+## 🙋 Author
 
 Manal Sewaied
 
